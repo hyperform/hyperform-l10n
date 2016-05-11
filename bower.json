@@ -1,0 +1,29 @@
+{
+  "name": "hyperform-l10n",
+  "version": "0.5.1",
+  "homepage": "https://github.com/hyperform/hyperform-l10n",
+  "authors": [
+    "Manuel Strehl"
+  ],
+  "description": "translations for hyperform",
+  "keywords": [
+    "hyperform",
+    "form",
+    "html5",
+    "validation",
+    "i18n",
+    "l10n",
+    "translation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Makefile",
+    "package.json",
+    "src",
+    "test",
+    "tests"
+  ]
+}
