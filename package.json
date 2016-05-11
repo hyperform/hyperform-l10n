@@ -1,0 +1,24 @@
+{
+  "name": "hyperform-l10n",
+  "version": "0.5.1",
+  "description": "translations for hyperform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperform/hyperform-l10n.git"
+  },
+  "keywords": [
+    "hyperform",
+    "form",
+    "html5",
+    "validation",
+    "i18n",
+    "l10n",
+    "translation"
+  ],
+  "author": "Manuel Strehl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyperform/hyperform-l10n/issues"
+  },
+  "homepage": "https://github.com/hyperform/hyperform-l10n#readme"
+}
