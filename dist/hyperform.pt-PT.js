@@ -11,7 +11,7 @@ RadioMissing:"Por favor selecione uma destas opções.",
 FileMissing:"Por favor selecione um ficheiro.",
 SelectMissing:"Por favor, selecione um elemento da lista.",
 InvalidEmail:"Por favor introduza um endereço de e-mail.",
-InvalidURL:"Por favor Iitroduza o URL.",
+InvalidURL:"Por favor introduza o URL.",
 PatternMismatch:"Por favor corresponda ao formato pedido.",
 PatternMismatchWithTitle:"Por favor corresponda ao formato pedido: %l.",
 NumberRangeOverflow:"Por favor selecione um valor que não seja maior que %l.",
@@ -24,4 +24,16 @@ StepMismatch:"Por favor selecione um valor válido. Os dois valores válidos mai
 StepMismatchOneValue:"Por favor selecione um valor válido. O valor válido mais aproximado é %l.",
 BadInputNumber:"Por favor introduza um número.",
 });
+//TODO: verify the translations
+hyperform.add_translation("pt-PT",
+{
+  "Please match the requested type.": "Por favor, satisfaça o tipo requisitado.",
+  "Please comply with all requirements.": "Por favor, satisfaça todos os requisitos.",
+  "Please lengthen this text to %l characters or more (you are currently using %l characters).": "Por favor, use pelo menos %l caracteres (no momento ele tem %l caracteres).",
+  "Please use the appropriate format.": "Por favor, use o formato apropriado.",
+  "Please enter a comma separated list of email addresses.": "Por favor, digite uma lista de e-mails separados por vírgula.",
+  "Please select a file of the correct type.": "Por favor, selecione um ficheiro do tipo correto.",
+  "Please select one or more files.": "Por favor, selecione um ou mais ficheiros."
+}
+);
 hyperform.set_language("pt-PT");
