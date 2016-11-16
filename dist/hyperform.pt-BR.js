@@ -1,6 +1,6 @@
 /**
  * source: Mozilla
- * http://mxr.mozilla.org/l10n-central/source/pt-BR/dom/chrome/dom/dom.properties?raw: 1
+ * https://hg.mozilla.org/l10n-central/pt-BR/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
 hyperform.add_translation("pt-BR",{
@@ -34,6 +34,5 @@ hyperform.add_translation("pt-BR",
   "Please enter a comma separated list of email addresses.": "Por favor, digite uma lista de e-mails separados por vírgula.",
   "Please select a file of the correct type.": "Por favor, selecione um arquivo do tipo correto.",
   "Please select one or more files.": "Por favor, selecione um ou mais arquivos."
-}
-);
+});
 hyperform.set_language("pt-BR");

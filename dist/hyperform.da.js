@@ -1,6 +1,6 @@
 /**
  * source: Mozilla
- * http://mxr.mozilla.org/l10n-central/source/da/dom/chrome/dom/dom.properties?raw=1
+ * https://hg.mozilla.org/l10n-central/da/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
 hyperform.add_translation("da",{
