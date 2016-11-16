@@ -5,6 +5,7 @@
  */
 hyperform.add_translation("da",{
 TextTooLong:"Begræns teksten til %l tegn eller færre (du bruger i øjeblikket %l tegn).",
+TextTooShort:"Brug mindst %l tegn (i øjeblikket bruger du kun %l tegn).",
 ValueMissing:"Udfyld dette felt.",
 CheckboxMissing:"Marker dette felt, hvis du ønsker at fortsætte.",
 RadioMissing:"Vælg en af de givne muligheder.",

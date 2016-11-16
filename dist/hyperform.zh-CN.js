@@ -5,6 +5,7 @@
  */
 hyperform.add_translation("zh-CN",{
 TextTooLong:"请将此文本缩短至 %l 个字符或更少（您现在已经输入了 %l 个字符）。",
+TextTooShort:"请使用至少 %l 个字符（您目前使用 %l 个字符）。",
 ValueMissing:"请填写此字段。",
 CheckboxMissing:"若要继续，请检选此检查框。",
 RadioMissing:"请选择一个选项。",

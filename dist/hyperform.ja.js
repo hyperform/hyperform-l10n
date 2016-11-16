@@ -4,7 +4,8 @@
  * published under the MPL v2.0
  */
 hyperform.add_translation("ja",{
-TextTooLong:"テキストを %1$S 文字以下に短くしてください (%2$S 文字超過しています)。",
+TextTooLong:"テキストを %1$S 文字以下に短くしてください (現在 %2$S 文字です)。",
+TextTooShort:"少なくとも %1$S 文字以上に長くしてください (現在 %2$S 文字です)。",
 ValueMissing:"このフィールドは入力必須です。",
 CheckboxMissing:"チェックボックスにチェックを入れてください。",
 RadioMissing:"いずれかのオプションを選択してください。",

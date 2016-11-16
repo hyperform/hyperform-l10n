@@ -5,6 +5,7 @@
  */
 hyperform.add_translation("fr",{
 TextTooLong:"Veuillez raccourcir ce champ à %l caractères ou moins (vous utilisez actuellement %l caractères).",
+TextTooShort:"Veuillez utiliser au moins %l caractères pour ce champ (vous utilisez actuellement %l caractères).",
 ValueMissing:"Veuillez compléter ce champ.",
 CheckboxMissing:"Veuillez cocher cette case si vous désirez poursuivre.",
 RadioMissing:"Veuillez sélectionner l’une de ces options.",
