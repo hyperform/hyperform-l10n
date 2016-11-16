@@ -26,8 +26,7 @@ StepMismatchOneValue:"Por favor selecione um valor válido. O valor válido mais
 BadInputNumber:"Por favor introduza um número.",
 });
 //TODO: verify the translations
-hyperform.add_translation("pt-PT",
-{
+hyperform.add_translation("pt-PT",{
   "Please match the requested type.": "Por favor, satisfaça o tipo requisitado.",
   "Please comply with all requirements.": "Por favor, satisfaça todos os requisitos.",
   "Please lengthen this text to %l characters or more (you are currently using %l characters).": "Por favor, use pelo menos %l caracteres (no momento ele tem %l caracteres).",

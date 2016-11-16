@@ -18,10 +18,10 @@ dist/hyperform.%.js:
 		curl -sS \
 			'https://hg.mozilla.org/l10n-central/$*/raw-file/default/dom/chrome/dom/dom.properties' | \
 			sed -n -e '/^FormValidation/ { s/%S/%l/g ; p }' | \
-			sed 's/^FormValidation\([^=\t]\+\)\t*=\(.\+\)/\1:"\2",/' ; \
+			sed 's/^FormValidation\([^=\t ]\+\)\s*=\s*\(.\+\)/\1:"\2",/' ; \
 		echo '});' ; \
 		if [ -f src/$*.json ]; then \
-			echo 'hyperform.add_translation("$*",' ; \
+			echo -n 'hyperform.add_translation("$*",' ; \
 			cat src/$*.json; \
 			echo ');' ; \
 		fi ; \

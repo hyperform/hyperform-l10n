@@ -25,8 +25,7 @@ StepMismatch:"Bitte wählen Sie einen gültigen Wert. Die zwei nähesten gültig
 StepMismatchOneValue:"Bitte wählen Sie einen gültigen Wert. Der näheste gültige Wert ist %l.",
 BadInputNumber:"Bitte geben Sie eine Nummer ein.",
 });
-hyperform.add_translation("de",
-{
+hyperform.add_translation("de",{
   "Please match the requested type.": "Bitte passen Sie die Eingabe dem geforderten Typ an.",
   "Please comply with all requirements.": "Bitte erfüllen Sie alle Anforderungen.",
   "Please lengthen this text to %l characters or more (you are currently using %l characters).": "Bitte verlängern Sie diesen Text auf mindestens %l Zeichen (Sie verwenden derzeit %l Zeichen).",
