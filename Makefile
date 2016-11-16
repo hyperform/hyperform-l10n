@@ -11,12 +11,12 @@ dist/hyperform.%.js:
 	@( \
 		echo '/**' ; \
 		echo ' * source: Mozilla' ; \
-		echo ' * http://mxr.mozilla.org/l10n-central/source/$*/dom/chrome/dom/dom.properties?raw=1' ; \
+		echo ' * https://hg.mozilla.org/l10n-central/$*/raw-file/default/dom/chrome/dom/dom.properties' ; \
 		echo ' * published under the MPL v2.0' ; \
 		echo ' */' ; \
 		echo 'hyperform.add_translation("$*",{' ; \
 		curl -sS \
-			'http://mxr.mozilla.org/l10n-central/source/$*/dom/chrome/dom/dom.properties?raw=1' | \
+			'https://hg.mozilla.org/l10n-central/$*/raw-file/default/dom/chrome/dom/dom.properties' | \
 			sed -n -e '/^FormValidation/ { s/%S/%l/g ; p }' | \
 			sed 's/^FormValidation\([^=\t]\+\)\t*=\(.\+\)/\1:"\2",/' ; \
 		echo '});' ; \
