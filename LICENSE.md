@@ -16,3 +16,7 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,  WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
 TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Parts  of  this  Source Code  are subject  to the terms  of the  Mozilla Public
+License, v. 2.0.  If a copy of the MPL was not distributed with this file,  You
+can obtain one at http://mozilla.org/MPL/2.0/.
