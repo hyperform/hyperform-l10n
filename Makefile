@@ -5,7 +5,7 @@ all:
 		$(MAKE) dist/hyperform.$$lang.js ; \
 	done
 
-dist/hyperform.%.js: src/%.json
+dist/hyperform.%.js:
 	@mkdir -p dist
 	@echo "* create $@"
 	@( \
@@ -27,3 +27,8 @@ dist/hyperform.%.js: src/%.json
 		fi ; \
 		echo 'hyperform.set_language("$*");' ; \
 	) > "$@"
+
+dist/hyperform.de.js: src/de.json
+dist/hyperform.pt-BR.js: src/pt-BR.json
+dist/hyperform.pt-PT.js: src/pt-PT.json
+dist/hyperform.ru.js: src/ru.json
