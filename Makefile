@@ -5,7 +5,7 @@ all:
 		$(MAKE) dist/hyperform.$$lang.js ; \
 	done
 
-dist/hyperform.%.js:
+dist/hyperform.%.js: src/%.json
 	@mkdir -p dist
 	@echo "* create $@"
 	@( \
