@@ -19,9 +19,9 @@ Just add the file representing your language after the main `hyperform` script:
 ## Contribution
 
 If you want to add your translation, you are very welcome to do so! Thanks for
-considering to help.
+considering to help!
 
-Please take a look how things work here before. When you clone this repository,
+A short intro how things work in this repo: When you clone this repository,
 you will find a `Makefile`, that is used to pull in initial translations from
 the Mozilla Firefox repository. So, let's say you want to contribute the
 Finnish translation (language code `fi`). This is how you would do that:
