@@ -36,6 +36,7 @@ cd hyperform-l10n
 # create the special translation strings, that are not provided
 # by Mozilla. Take a look at src/de.json for the possible source
 # strings to translate.
+cp src/de.json src/fi.json
 $EDITOR src/fi.json
 
 # Done? Great! Now, pull in the translations from Mozilla:
