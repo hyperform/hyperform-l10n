@@ -24,7 +24,7 @@ considering to help!
 A short intro how things work in this repo: When you clone this repository,
 you will find a `Makefile`, that is used to pull in initial translations from
 the Mozilla Firefox repository. So, let's say you want to contribute the
-Farsi translation (language code `fa`). This is how you would do that:
+Latin translation (language code `la`). This is how you would do that:
 
 ```sh
 # clone the repository (after you forked it) and...
@@ -36,20 +36,20 @@ cd hyperform-l10n
 # create the special translation strings, that are not provided
 # by Mozilla. Take a look at src/de.json for the possible source
 # strings to translate.
-cp src/de.json src/fa.json
-$EDITOR src/fa.json
+cp src/de.json src/la.json
+$EDITOR src/la.json
 
 # Done? Great! Now, pull in the translations from Mozilla:
-make dist/hyperform.fa.js
+make dist/hyperform.la.js
 
-# Take a look at dist/hyperform.fa.js. If you want, change all translations in
+# Take a look at dist/hyperform.la.js. If you want, change all translations in
 # the first block, that are problematic. You can also choose to just keep them
 # as they are.
-$EDITOR dist/hyperform.fa.js
+$EDITOR dist/hyperform.la.js
 
 # Add your files and commit your changes...
-git add src/fa.json dist/hyperform.fa.js
-git commit -m 'add Farsi translation (fa)' src/fa.json dist/hyperform.fa.js
+git add src/la.json dist/hyperform.la.js
+git commit -m 'add Latin translation (la)' src/la.json dist/hyperform.la.js
 
 # ...and push them to your fork:
 git push
