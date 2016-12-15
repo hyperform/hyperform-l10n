@@ -1,4 +1,4 @@
-LANGUAGES := ar da de el es-ES fr he it ja pt-PT pt-BR zh-CN zh-TW
+LANGUAGES := ar da de el es-ES fr fi he it ja pt-PT pt-BR zh-CN zh-TW
 
 all:
 	@for lang in $(LANGUAGES); do \
