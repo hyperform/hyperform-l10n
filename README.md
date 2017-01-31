@@ -18,6 +18,11 @@ Just add the file representing your language after the main `hyperform` script:
 
 ## Contribution
 
+**Help wanted!** For some languages we only have stub translations and some
+strings are missing. If you speak العربية, Dansk, Ελληνικά, Español, Français,
+עברית, Italiano, 日本語, or 中文 or 文言, please consider translating the
+strings found, e.g., in `src/de.json`. Thank you!
+
 If you want to add your translation, you are very welcome to do so! Thanks for
 considering to help!
 
