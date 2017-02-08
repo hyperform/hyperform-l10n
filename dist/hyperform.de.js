@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/de/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("de",{
+hyperform.addTranslation("de",{
 TextTooLong:"Bitte kürzen Sie diesen Text auf maximal %l Zeichen (Sie verwenden derzeit %l Zeichen).",
 TextTooShort:"Bitte verwenden Sie zumindest %l Zeichen (Sie verwenden derzeit %l Zeichen).",
 ValueMissing:"Bitte füllen Sie dieses Feld aus.",
@@ -25,7 +25,7 @@ StepMismatch:"Bitte wählen Sie einen gültigen Wert. Die zwei nähesten gültig
 StepMismatchOneValue:"Bitte wählen Sie einen gültigen Wert. Der näheste gültige Wert ist %l.",
 BadInputNumber:"Bitte geben Sie eine Nummer ein.",
 });
-hyperform.add_translation("de",{
+hyperform.addTranslation("de",{
   "Please match the requested type.": "Bitte passen Sie die Eingabe dem geforderten Typ an.",
   "Please comply with all requirements.": "Bitte erfüllen Sie alle Anforderungen.",
   "Please lengthen this text to %l characters or more (you are currently using %l characters).": "Bitte verlängern Sie diesen Text auf mindestens %l Zeichen (Sie verwenden derzeit %l Zeichen).",
@@ -35,4 +35,4 @@ hyperform.add_translation("de",{
   "Please select one or more files.": "Bitte wählen Sie eine oder mehrere Dateien."
 }
 );
-hyperform.set_language("de");
+hyperform.setLanguage("de");

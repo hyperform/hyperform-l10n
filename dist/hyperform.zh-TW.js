@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/zh-TW/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("zh-TW",{
+hyperform.addTranslation("zh-TW",{
 TextTooLong:"請把這段文字縮減到 %l 個字元以內（您現在用了 %l 個字）。",
 TextTooShort:"請輸入至少 %l 個字元（目前輸入 %l 個字元）。",
 ValueMissing:"請填寫此欄位。",
@@ -25,4 +25,4 @@ StepMismatch:"請選擇有效的值。最接近的有效值為 %l 與 %l。",
 StepMismatchOneValue:"請選擇有效的值。最接近的有效值為 %l。",
 BadInputNumber:"請輸入數字。",
 });
-hyperform.set_language("zh-TW");
+hyperform.setLanguage("zh-TW");

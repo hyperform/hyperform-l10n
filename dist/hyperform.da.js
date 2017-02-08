@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/da/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("da",{
+hyperform.addTranslation("da",{
 TextTooLong:"Begræns teksten til %l tegn eller færre (du bruger i øjeblikket %l tegn).",
 TextTooShort:"Brug mindst %l tegn (i øjeblikket bruger du kun %l tegn).",
 ValueMissing:"Udfyld dette felt.",
@@ -25,4 +25,4 @@ StepMismatch:"Vælg en gyldig værdi. De to nærmeste gyldige værdier er %l og 
 StepMismatchOneValue:"Vælg en gyldig værdi. Den nærmeste gyldige værdi er %l.",
 BadInputNumber:"Indtast et tal.",
 });
-hyperform.set_language("da");
+hyperform.setLanguage("da");

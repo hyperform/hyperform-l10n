@@ -14,7 +14,7 @@ dist/hyperform.%.js:
 		echo ' * https://hg.mozilla.org/l10n-central/$*/raw-file/default/dom/chrome/dom/dom.properties' ; \
 		echo ' * published under the MPL v2.0' ; \
 		echo ' */' ; \
-		echo 'hyperform.add_translation("$*",{' ; \
+		echo 'hyperform.addTranslation("$*",{' ; \
 		curl -sS \
 			'https://hg.mozilla.org/l10n-central/$*/raw-file/default/dom/chrome/dom/dom.properties' | \
 			sed -n -e '/^FormValidation/ { s/%S/%l/g ; p }' | \
@@ -25,7 +25,7 @@ dist/hyperform.%.js:
 			cat src/$*.json; \
 			echo ');' ; \
 		fi ; \
-		echo 'hyperform.set_language("$*");' ; \
+		echo 'hyperform.setLanguage("$*");' ; \
 	) > "$@"
 
 dist/hyperform.de.js: src/de.json

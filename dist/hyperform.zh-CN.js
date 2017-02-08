@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/zh-CN/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("zh-CN",{
+hyperform.addTranslation("zh-CN",{
 TextTooLong:"请将此文本缩短至 %l 个字符或更少（您现在已经输入了 %l 个字符）。",
 TextTooShort:"请使用至少 %l 个字符（您目前使用 %l 个字符）。",
 ValueMissing:"请填写此字段。",
@@ -25,4 +25,4 @@ StepMismatch:"请选择一个有效的值，值要在 %l 和 %l 的范围内。"
 StepMismatchOneValue:"请选择一个有效的值。最接近的有效值是 %l。",
 BadInputNumber:"请输入一组数字。",
 });
-hyperform.set_language("zh-CN");
+hyperform.setLanguage("zh-CN");

@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/el/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("el",{
+hyperform.addTranslation("el",{
 ValueMissing:"Παρακαλώ συμπληρώστε αυτό το πεδίο.",
 CheckboxMissing:"Παρακαλώ επιλέξτε αυτό το κουτί αν θέλετε να συνεχίσετε.",
 RadioMissing:"Επιλέξτε ένα από τα παρακάτω.",
@@ -12,4 +12,4 @@ SelectMissing:"Παρακαλώ επιλέξτε ένα αντικείμενο �
 InvalidEmail:"Παρακαλώ εισάγετε μια διεύθυνση email.",
 InvalidURL:"Παρακαλώ εισάγετε ένα URL.",
 });
-hyperform.set_language("el");
+hyperform.setLanguage("el");

@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/ja/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("ja",{
+hyperform.addTranslation("ja",{
 TextTooLong:"テキストを %1$S 文字以下に短くしてください (現在 %2$S 文字です)。",
 TextTooShort:"少なくとも %1$S 文字以上に長くしてください (現在 %2$S 文字です)。",
 ValueMissing:"このフィールドは入力必須です。",
@@ -25,4 +25,4 @@ StepMismatch:"正しい値を選択してください。最も近い正しい値
 StepMismatchOneValue:"正しい値を選択してください。最も近い正しい値は %l です。",
 BadInputNumber:"数値を入力してください。",
 });
-hyperform.set_language("ja");
+hyperform.setLanguage("ja");

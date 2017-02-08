@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/fr/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("fr",{
+hyperform.addTranslation("fr",{
 TextTooLong:"Veuillez raccourcir ce champ à %l caractères ou moins (vous utilisez actuellement %l caractères).",
 TextTooShort:"Veuillez utiliser au moins %l caractères pour ce champ (vous utilisez actuellement %l caractères).",
 ValueMissing:"Veuillez compléter ce champ.",
@@ -25,4 +25,4 @@ StepMismatch:"Veuillez sélectionner une valeur valide. Les deux valeurs valides
 StepMismatchOneValue:"Veuillez sélectionner une valeur valide. La valeur valide la plus proche est %l.",
 BadInputNumber:"Veuillez saisir un nombre.",
 });
-hyperform.set_language("fr");
+hyperform.setLanguage("fr");

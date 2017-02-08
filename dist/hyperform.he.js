@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/he/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("he",{
+hyperform.addTranslation("he",{
 TextTooLong:"קצר את טקסט זה ל־%l תווים לכל היותר (אתה משתמש כעת ב־%l תווים).",
 ValueMissing:"אנא מלא את שדה זה.",
 CheckboxMissing:"סמן את תיבה זו אם ברצונך להמשיך.",
@@ -24,4 +24,4 @@ StepMismatch:"בבקשה לבחור ערך חוקי. שני הערכים החו�
 StepMismatchOneValue:"Please select a valid value. The nearest valid value is %l.",
 BadInputNumber:"בבקשה להזין מספר.",
 });
-hyperform.set_language("he");
+hyperform.setLanguage("he");

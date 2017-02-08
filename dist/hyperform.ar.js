@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/ar/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("ar",{
+hyperform.addTranslation("ar",{
 TextTooLong:"رجاءً اختصر هذا النص ليصل إلى طوله إلى %l حرف أو أقل (أنت أدخلت حتى الآن %l حرفًاs).",
 ValueMissing:"رجاءً املأ هذا الحقل.",
 CheckboxMissing:"رجاءً علّم هذا المربع إن أردت المتابعة.",
@@ -24,4 +24,4 @@ StepMismatch:"رجاءً اختر قيمة صحيحة. أقرب قيمتين ص�
 StepMismatchOneValue:"رجاءً اختر قيمة صحيحة. أقرب قيمة صحيحة هي %l.",
 BadInputNumber:"من فضلك أدخل رقمًا.",
 });
-hyperform.set_language("ar");
+hyperform.setLanguage("ar");

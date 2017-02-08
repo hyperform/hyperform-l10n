@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/cs/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("cs",{
+hyperform.addTranslation("cs",{
 TextTooLong:"Zkraťte prosím text na %l znaků nebo méně (aktuální velikost textu je %l znaků).",
 TextTooShort:"Použijte prosím text alespoň %l znaků dlouhý (aktuální velikost textu je %l znaků).",
 ValueMissing:"Vyplňte prosím toto pole.",
@@ -25,7 +25,7 @@ StepMismatch:"Zvolte prosím platnou hodnotu. Nejbližší platné hodnoty jsou 
 StepMismatchOneValue:"Zvolte prosím platnou hodnotu. Nejbližší platná hodnota je %l.",
 BadInputNumber:"Vložte prosím platné číslo.",
 });
-hyperform.add_translation("cs",{
+hyperform.addTranslation("cs",{
   "Please match the requested type.": "Vyplňte prosím všechna požadovaná pole.",
   "Please comply with all requirements.": "Při vyplňování je nutné dodržet všechny požadavky.",
   "Please lengthen this text to %l characters or more (you are currently using %l characters).": "Zvětšete prosím tento text na %l znaků nebo více (váš text má momentálně %l znaků).",
@@ -35,4 +35,4 @@ hyperform.add_translation("cs",{
   "Please select one or more files.": "Zvolte prosím jeden nebo více souborů."
 }
 );
-hyperform.set_language("cs");
+hyperform.setLanguage("cs");

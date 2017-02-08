@@ -1,6 +1,6 @@
 /**
  */
-hyperform.add_translation("ru",{
+hyperform.addTranslation("ru",{
 TextTooLong:"Пожалуйста, сократите этот текст до %l символов или меньше (сейчас Вы используете %l символов).",
 ValueMissing:"Пожалуйста, заполните это поле.",
 CheckboxMissing:"Пожалуйста, поставьте флажок, если Вы хотите продолжить.",
@@ -21,7 +21,7 @@ StepMismatch:"Пожалуйста, выберите корректное зна
 StepMismatchOneValue:"Пожалуйста, введите корректное значение. Ближайшее допустимое значение %l.",
 BadInputNumber:"Пожалуйста, введите число"
 });
-hyperform.add_translation("ru",{
+hyperform.addTranslation("ru",{
   "Please match the requested type.":"Пожалуйста, придерживайтесь требуемого типа.",
   "Please comply with all requirements.":"Пожалуйста, выполните все необходимые условия.",
   "Please lengthen this text to %l characters or more (you are currently using %l characters).":"Пожалуйста, увеличьте этот текст на %l символов или более (вы используете %l символов).",
@@ -31,4 +31,4 @@ hyperform.add_translation("ru",{
   "Please select one or more files.":"Пожалуйста, выберите один или несколько файлов."
 }
 );
-hyperform.set_language("ru");
+hyperform.setLanguage("ru");

@@ -3,7 +3,7 @@
  * https://hg.mozilla.org/l10n-central/fi/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
-hyperform.add_translation("fi",{
+hyperform.addTranslation("fi",{
 TextTooLong:"Lyhennä kentän teksti %l merkkiin tai vähempään (nyt käytössä %l merkkiä).",
 ValueMissing:"Täytä tämä kenttä.",
 CheckboxMissing:"Valitse tämä kohta jos haluat jatkaa.",
@@ -24,7 +24,7 @@ StepMismatch:"Valitse kelvollinen arvo. Kaksi lähintä kelvollista arvoa ovat %
 StepMismatchOneValue:"Valitse kelvollinen arvo. Lähin kelvollinen arvo on %l.",
 BadInputNumber:"Kirjoita luku.",
 });
-hyperform.add_translation("fi",{
+hyperform.addTranslation("fi",{
   "Please match the requested type.": "Ole hyvä ja vastaa pyydetyllä tyypillä.",
   "Please comply with all requirements.": "Ole hyvä ja noudata kaikkia vaatimuksia.",
   "Please lengthen this text to %l characters or more (you are currently using %l characters).": "Pidennä tämä tekstiä %l merkillä tai useammalla (nyt on käytössä %l merkkiä).",
@@ -34,4 +34,4 @@ hyperform.add_translation("fi",{
   "Please select one or more files.": "Ole hyvä ja valitse yksi tai useampi tiedosto."
 }
 );
-hyperform.set_language("fi");
+hyperform.setLanguage("fi");
