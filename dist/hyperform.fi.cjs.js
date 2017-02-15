@@ -1,3 +1,4 @@
+var hyperform = require("hyperform");
 /**
  * some of the following strings were imported from Mozilla's
  * Firefox source repository, found at

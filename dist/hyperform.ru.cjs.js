@@ -1,3 +1,4 @@
+var hyperform = require("hyperform");
 /**
  */
 hyperform.addTranslation("ru",{

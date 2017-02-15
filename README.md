@@ -21,7 +21,7 @@ Just add the file representing your language after the main `hyperform` script:
 **Help wanted!** For some languages we only have stub translations and some
 strings are missing. If you speak العربية, Dansk, Ελληνικά, Español, Français,
 עברית, Italiano, 日本語, or 中文 or 文言, please consider translating the
-strings found, e.g., in `src/de.json`. Thank you!
+strings found, e.g., in `src/de.js`. Thank you!
 
 If you want to add your translation, you are very welcome to do so! Thanks for
 considering to help!
@@ -38,23 +38,25 @@ git clone git@github.com:YourForkOf/hyperform-l10n.git
 # ...cd into it
 cd hyperform-l10n
 
-# create the special translation strings, that are not provided
-# by Mozilla. Take a look at src/de.json for the possible source
-# strings to translate.
-cp src/de.json src/la.json
-$EDITOR src/la.json
+# create a base translation with the strings provided
+# by Mozilla:
+make src/la.js
 
-# Done? Great! Now, pull in the translations from Mozilla:
-make dist/hyperform.la.js
+# Done? Great! Now, edit that file. Change the Mozilla
+# translations where necessary and add the missing ones,
+# that are commented out towards the end of the file:
+$EDITOR src/la.js
 
-# Take a look at dist/hyperform.la.js. If you want, change all translations in
-# the first block, that are problematic. You can also choose to just keep them
-# as they are.
-$EDITOR dist/hyperform.la.js
+# Add your language to the first line in the Makefile so
+# that it gets built automatically:
+sed -i '1s/$/ la/' Makefile
+
+# Create the final files in the `dist` folder:
+make
 
 # Add your files and commit your changes...
-git add src/la.json dist/hyperform.la.js
-git commit -m 'add Latin translation (la)' src/la.json dist/hyperform.la.js
+git add src/la.js dist/hyperform.la.js dist/hyperform.la.cjs.js
+git commit -m 'add Latin translation (la)'
 
 # ...and push them to your fork:
 git push
