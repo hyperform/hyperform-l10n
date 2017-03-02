@@ -24,5 +24,12 @@ TimeRangeUnderflow:"Velg et klokkeslett etter %l.",
 StepMismatch:"Velg en gyldig verdi. De nærmeste gyldige verdiene er %l og %l",
 StepMismatchOneValue:"Velg en gyldig verdi. Nærmeste gyldig verdi er %l.",
 BadInputNumber:"Tast inn et tall.",
+"Please match the requested type.": "Vennligst bruk riktig datatype.",
+"Please comply with all requirements.": "Vennligst overhold alle kravene.",
+"Please lengthen this text to %l characters or more (you are currently using %l characters).": "Vennligst bruk %l tegn eller mer (%l tegn er brukt).",
+"Please use the appropriate format.": "Vennligst bruk korrekt format.",
+"Please enter a comma separated list of email addresses.": "Vennligst bruk en kommaseparert liste av epostadresser.",
+"Please select a file of the correct type.": "Vennligst velg riktig filtype.",
+"Please select one or more files.": "Vennligst velg en eller flere filer.",
 });
 hyperform.setLanguage("no");
