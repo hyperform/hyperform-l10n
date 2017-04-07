@@ -1,4 +1,4 @@
-# ![Text “Hyperform - Insert Form” in 80s arcade game style](https://github.com/hyperform/hyperform/raw/master/stuff/header.png)
+# ![Text “Hyperform - Insert Form” in 80s arcade game style](https://hyperform.js.org/statics/header.png)
 
 ## Localizations for Hyperform
 
