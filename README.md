@@ -8,13 +8,15 @@ This repository provides localization components for [Hyperform](http://hyperfor
 
 Just add the file representing your language after the main `hyperform` script:
 
-    <script src="hyperform.js"></script>
-    <!-- load German strings -->
-    <script src="hyperform.de.js"></script>
-    <script>
-      /* Validation messages are in German now. */
-      hyperform(window);
-    </script>
+```html
+<script src="hyperform.js"></script>
+<!-- load German strings -->
+<script src="hyperform.de.js"></script>
+<script>
+  /* Validation messages are in German now. */
+  hyperform(window);
+</script>
+```
 
 ## Contribution
 
