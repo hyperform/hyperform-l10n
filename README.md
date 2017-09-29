@@ -18,6 +18,33 @@ Just add the file representing your language after the main `hyperform` script:
 </script>
 ```
 
+## Coverage
+
+The current language coverage is:
+
+```
+ar	65%
+cs	93%
+da	68%
+de	100%
+el	65%
+es-ES	68%
+fa	65%
+fi	89%
+fr	68%
+he	65%
+it	68%
+ja	68%
+no	93%
+pt-BR	93%
+pt-PT	93%
+ru	89%
+zh-CN	68%
+zh-TW	68%
+```
+
+Want to enhance your language's coverage? Then read on!
+
 ## Contribution
 
 **Help wanted!** For some languages we only have stub translations and some

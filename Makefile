@@ -7,6 +7,7 @@ all:
 		$(MAKE) --no-print-directory dist/hyperform.$$lang.js ; \
 		$(MAKE) --no-print-directory dist/hyperform.$$lang.cjs.js ; \
 	done
+.PHONY: all
 
 dist/hyperform.%.js: src/%.js
 	@cp "$<" "$@"
@@ -44,3 +45,10 @@ src/%.js:
 		echo '});' ; \
 		echo "hyperform.setLanguage('$*');" ; \
 	) > "$@"
+
+coverage:
+	@for x in src/*.js ; do \
+		basename $$x .js | tr $$'\n' $$'\t'; \
+		grep '^[A-Z"]' $$x | wc -l | sed 's/.*/scale=2;&\/29*100/' | bc | sed 's/\.[0-9]*$$/%/'; \
+	done
+.PHONY: coverage
