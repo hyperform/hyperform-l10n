@@ -1,8 +1,13 @@
 var hyperform = require("hyperform");
 /**
+ *
+ *
+ *
+ *
  */
 hyperform.addTranslation("ru",{
 TextTooLong:"Пожалуйста, сократите этот текст до %l символов или меньше (сейчас Вы используете %l символов).",
+//TextTooShort:"",
 ValueMissing:"Пожалуйста, заполните это поле.",
 CheckboxMissing:"Пожалуйста, поставьте флажок, если Вы хотите продолжить.",
 RadioMissing:"Пожалуйста, выберите один из этих вариантов.",
@@ -10,6 +15,7 @@ FileMissing:"Пожалуйста, выберите файл.",
 SelectMissing:"Пожалуйста, выберите пункт из списка.",
 InvalidEmail:"Пожалуйста, введите адрес электронной почты.",
 InvalidURL:"Пожалуйста, введите веб-адрес.",
+//InvalidDate:"",
 PatternMismatch:"Пожалуйста, придерживайтесь установленного формата.",
 PatternMismatchWithTitle:"Пожалуйста, придерживайтесь установленного формата: %l.",
 NumberRangeOverflow:"Пожалуйста, выберите значение, не больше чем %l.",
@@ -28,5 +34,7 @@ BadInputNumber:"Пожалуйста, введите число",
 "Please enter a comma separated list of email addresses.":"Пожалуйста, введите список адресов электронной почты через запятую",
 "Please select a file of the correct type.":"Пожалуйста, выберите файл правильного типа.",
 "Please select one or more files.":"Пожалуйста, выберите один или несколько файлов."
+//"any value":"",
+//"any valid value":"",
 });
 hyperform.setLanguage("ru");
