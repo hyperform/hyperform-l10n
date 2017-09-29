@@ -6,6 +6,7 @@ all:
 		$(MAKE) --no-print-directory src/$$lang.js ; \
 		$(MAKE) --no-print-directory dist/hyperform.$$lang.js ; \
 		$(MAKE) --no-print-directory dist/hyperform.$$lang.cjs.js ; \
+		$(MAKE) --no-print-directory dist/hyperform.$$lang.amd.js ; \
 	done
 .PHONY: all
 
@@ -16,6 +17,13 @@ dist/hyperform.%.cjs.js: dist/hyperform.%.js
 	@( \
 		echo 'var hyperform = require("hyperform");' ; \
 		cat "$<"; \
+	) > "$@"
+
+dist/hyperform.%.amd.js: dist/hyperform.%.js
+	@( \
+		echo 'define(["hyperform"], function(hyperform) {' ; \
+		cat "$<"; \
+		echo '});' ; \
 	) > "$@"
 
 src/%.js:
