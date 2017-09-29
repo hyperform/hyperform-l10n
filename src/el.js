@@ -12,5 +12,16 @@ FileMissing:"Παρακαλώ επιλέξτε ένα αρχείο.",
 SelectMissing:"Παρακαλώ επιλέξτε ένα αντικείμενο στη λίστα.",
 InvalidEmail:"Παρακαλώ εισάγετε μια διεύθυνση email.",
 InvalidURL:"Παρακαλώ εισάγετε ένα URL.",
+//TimeRangeOverflow:"",
+//TimeRangeUnderflow:"",
+//"Please match the requested type.": "",
+//"Please comply with all requirements.": "",
+//"Please lengthen this text to %l characters or more (you are currently using %l characters).": "",
+//"Please use the appropriate format.": "",
+//"Please enter a comma separated list of email addresses.": "",
+//"Please select a file of the correct type.": "",
+//"Please select one or more files.": "",
+//"any value":"",
+//"any valid value":"",
 });
-hyperform.setLanguage("el");
+hyperform.setLanguage('el');

@@ -6,6 +6,7 @@
  */
 hyperform.addTranslation("fi",{
 TextTooLong:"Lyhennä kentän teksti %l merkkiin tai vähempään (nyt käytössä %l merkkiä).",
+//TextTooShort:"",
 ValueMissing:"Täytä tämä kenttä.",
 CheckboxMissing:"Valitse tämä kohta jos haluat jatkaa.",
 RadioMissing:"Valitse yksi vaihtoehdoista.",
@@ -13,6 +14,7 @@ FileMissing:"Valitse tiedosto.",
 SelectMissing:"Valitse kohta listalta.",
 InvalidEmail:"Kirjoita kelvollinen sähköpostiosoite.",
 InvalidURL:"Kirjoita osoite.",
+//InvalidDate:"",
 PatternMismatch:"Anna arvo pyydetyssä muodossa.",
 PatternMismatchWithTitle:"Anna arvo pyydetyssä muodossa: %l.",
 NumberRangeOverflow:"Valitse arvo, joka on enintään %l.",
@@ -31,5 +33,7 @@ BadInputNumber:"Kirjoita luku.",
 "Please enter a comma separated list of email addresses.": "Ole hyvä ja anna pilkuilla erotettu lista sähköpostiosoitteista.",
 "Please select a file of the correct type.": "Ole hyvä ja valitse oikeaa tyyppiä vastaava tiedosto.",
 "Please select one or more files.": "Ole hyvä ja valitse yksi tai useampi tiedosto.",
+//"any value":"",
+//"any valid value":"",
 });
 hyperform.setLanguage("fi");
