@@ -32,5 +32,7 @@ BadInputNumber:"Bitte geben Sie eine Nummer ein.",
 "Please enter a comma separated list of email addresses.": "Bitte geben Sie eine komma-getrennte Liste von E-Mail-Adressen an.",
 "Please select a file of the correct type.": "Bitte wählen Sie eine Datei vom korrekten Typ.",
 "Please select one or more files.": "Bitte wählen Sie eine oder mehrere Dateien.",
+"any value":"jeder Wert",
+"any valid value":"jeder gültige Wert",
 });
 hyperform.setLanguage("de");

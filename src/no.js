@@ -1,6 +1,7 @@
 /**
- * source: Mozilla
- * https://hg.mozilla.org/l10n-central/da/raw-file/default/dom/chrome/dom/dom.properties
+ * some of the following strings were imported from Mozilla's
+ * Firefox source repository, found at
+ * https://hg.mozilla.org/l10n-central/no/raw-file/default/dom/chrome/dom/dom.properties
  * published under the MPL v2.0
  */
 hyperform.addTranslation("no",{
