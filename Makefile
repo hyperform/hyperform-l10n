@@ -3,9 +3,9 @@ LANGUAGES := ar cs da de el es-ES fa fi fr he it ja no pt-BR pt-PT ru zh-CN zh-T
 all:
 	@mkdir -p dist
 	@for lang in $(LANGUAGES); do \
-		$(MAKE) src/$$lang.js ; \
-		$(MAKE) dist/hyperform.$$lang.js ; \
-		$(MAKE) dist/hyperform.$$lang.cjs.js ; \
+		$(MAKE) --no-print-directory src/$$lang.js ; \
+		$(MAKE) --no-print-directory dist/hyperform.$$lang.js ; \
+		$(MAKE) --no-print-directory dist/hyperform.$$lang.cjs.js ; \
 	done
 
 dist/hyperform.%.js: src/%.js
@@ -25,7 +25,7 @@ src/%.js:
 		echo ' * some of the following strings were imported from Mozilla'"'"'s' ; \
 		echo ' * Firefox source repository, found at' ; \
 		echo ' * https://hg.mozilla.org/l10n-central/$*/raw-file/default/dom/chrome/dom/dom.properties' ; \
-		echo ' * and published under the MPL v2.0' ; \
+		echo ' * published under the MPL v2.0' ; \
 		echo ' */' ; \
 		echo "hyperform.addTranslation('$*', {" ; \
 		curl -sS \
@@ -39,6 +39,8 @@ src/%.js:
 		echo '//"Please enter a comma separated list of email addresses.": "",' ; \
 		echo '//"Please select a file of the correct type.": "",' ; \
 		echo '//"Please select one or more files.": "",' ; \
+		echo '//"any value":"",' ; \
+		echo '//"any valid value":"",' ; \
 		echo '});' ; \
 		echo "hyperform.setLanguage('$*');" ; \
 	) > "$@"
