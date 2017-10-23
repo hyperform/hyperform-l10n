@@ -38,7 +38,7 @@ ja	68%
 no	93%
 pt-BR	93%
 pt-PT	93%
-ru	89%
+ru	100%
 zh-CN	68%
 zh-TW	68%
 ```
