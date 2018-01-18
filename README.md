@@ -31,7 +31,7 @@ el	65%
 es-ES	68%
 fa	65%
 fi	89%
-fr	68%
+fr	100%
 he	65%
 it	68%
 ja	68%
