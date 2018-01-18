@@ -1,14 +1,22 @@
 LANGUAGES := ar cs da de el es-ES fa fi fr he it ja no pt-BR pt-PT ru zh-CN zh-TW
 
-all:
-	@mkdir -p dist
+all: src dist
+.PHONY: all
+
+src:
 	@for lang in $(LANGUAGES); do \
 		$(MAKE) --no-print-directory src/$$lang.js ; \
+	done
+.PHONY: src
+
+dist:
+	@mkdir -p dist
+	@for lang in $(LANGUAGES); do \
 		$(MAKE) --no-print-directory dist/hyperform.$$lang.js ; \
 		$(MAKE) --no-print-directory dist/hyperform.$$lang.cjs.js ; \
 		$(MAKE) --no-print-directory dist/hyperform.$$lang.amd.js ; \
 	done
-.PHONY: all
+.PHONY: dist
 
 dist/hyperform.%.js: src/%.js
 	@cp "$<" "$@"
