@@ -35,6 +35,7 @@ fr	100%
 he	65%
 it	68%
 ja	68%
+nl  100%
 no	93%
 pt-BR	93%
 pt-PT	93%
