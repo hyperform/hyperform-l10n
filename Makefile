@@ -1,4 +1,4 @@
-LANGUAGES := ar cs da de el es-ES fa fi fr he it ja no pt-BR pt-PT ru zh-CN zh-TW
+LANGUAGES := ar cs da de el es-ES fa fi fr he it ja nl no pt-BR pt-PT ru zh-CN zh-TW
 
 all: src dist
 .PHONY: all
