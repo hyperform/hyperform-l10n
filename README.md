@@ -57,14 +57,13 @@ Want to enhance your language's coverage? Then read on!
 
 **Help wanted!** For some languages we only have stub translations and some
 strings are missing. If you speak العربية, Dansk, Ελληνικά, Español, Français,
-עברית, Italiano, 日本語, or 中文 or 文言, please consider translating the
-strings found, e.g., in `src/de.js`. Thank you!
+עברית, Italiano, 日本語, or 中文 or 文言, or any other language please consider
+translating the missing texts or starting a new translation for your language.
+Thank you for your help!
 
-If you want to add your translation, you are very welcome to do so! Thanks for
-considering to help!
-
-A short intro how things work in this repo: Let's say you want to contribute the
-Latin translation (language code `la`). This is how you would do that:
+A short intro how to get your translation into here: Let's say you want to
+contribute the Latin translation (language code `la`). This is how you would
+do that:
 
 First, fork this repository on Github. You can do that with the button in the
 upper-right corner on https://github.com/hyperform/hyperform-l10n/ labeled
@@ -112,7 +111,7 @@ The language can equally well be added in a normal editor.)
 make
 
 # Add your files and commit your changes...
-git add src/la.js dist/hyperform.la.js dist/hyperform.la.cjs.js
+git add Makefile src/la.js dist/hyperform.la.*
 git commit -m 'add Latin translation (la)'
 
 # ...and push them to your fork:
